@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-section {
+    position: relative;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  
+  }
+  
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  header li {
+    list-style: none;
+  }
+  
+  .nav-container {
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+  }
+  
+  .highlight {
+    color: blue;
+  }
+  
+  .hero-image {
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    width: 100%;
+  }
+  
