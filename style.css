@@ -128,17 +128,17 @@
   .sec-3{
     background-color: rgb(129, 0, 215);
     display: flex;
-    gap: 50px;
+    gap: 30px;
   }
   .sec-3 img{
     margin-top: 150px;
     width: 40%;
-    margin-left: 70px;
+    margin-left: 40px;
     border: 20px solid #ffffff;
     border-radius: 90px;
   }
   .txts{
-    margin-top: 300px;
+    margin-top: 350px;
     color: #ffffff;
     margin-left: 25px;
   }
