@@ -23,9 +23,15 @@
   }
   
   header a {
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
   }
+
+  header a:hover{
+    text-decoration-line: underline;
+    color: blue;
+  }
+
   header li {
     list-style: none;
   }
@@ -42,8 +48,96 @@
   
   .hero-image {
     position: absolute;
-    top: 0;
+    top: 60px;
     z-index: -10;
     width: 100%;
+    height: 480px;
   }
+
+  .contain{
+   max-width: 1200px;
+   margin: auto;
+  }
+
+  .services-heading{
+    color: #fff;
+    margin-top: 160px;
+    margin-left: 60px;
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  
+  div p{
+    color: rgb(255, 132, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+  }
+
+  .service-img{
+    border-radius: 18px;
+    background-image: url(images/servicedescimg.png);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    width: 94%;
+    margin-top: 180px;
+    margin-left: 40px;
+  }
+
+  .services-content{
+    margin-top: -180px;
+    margin-left: 120px;
+    display: flex;
+    gap: 50px;
+    color: #fff;
+    font-size: x-large;
+  }
+
+  .sp{
+    font-size: 17px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -40px;
+    line-height: 25px 
+  }
+
+  /* .service-buttom{
+    display: flex;
+    margin-top: 130px;
+    padding: 50px;
+   border: 1px solid black;
+   justify-content: space-evenly;
+  } */
+
+  .b1{
+    margin-left: 40px;
+    margin-top: 130px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 15px;
+  } 
+
+  .b2{
+    margin-left: 445px;
+    margin-top: -380px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 15px;
+  }
+
+  .b3{
+    margin-left: 850px;
+    margin-top: -380px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 15px;
+  }
+
   
