@@ -5,6 +5,7 @@
 
   /*---------navsecion-------*/
 
+  
 
   .hero-section {
     position: relative;
@@ -14,7 +15,7 @@
   .container {
     max-width: 1200px;
     margin: auto;
-    
+ 
   }
   
   .navbar {
@@ -63,14 +64,15 @@
     top: 60px;
     z-index: -10;
     width: 100%;
-
+    height: 800px;
+    object-fit: cover;
  
     
   }
   .header{
     font-size: 70px;
     color: #ffffff;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-top: 200px;
     font-weight: 500px;
   }
@@ -80,7 +82,7 @@
     width: 139px;
     color: #ffffff;
     height: 44px;
-    margin-left: 50px;
+    
     font-size: 15px;
     border: none;
     margin-top: 8px;
@@ -100,6 +102,8 @@
     margin-left: 100px;
     gap: 1px;
   }
+
+
   .icons img{
     width: 190px;
     height: 60px;
@@ -134,15 +138,26 @@
 
   .sec-3{
     background-color: rgb(129, 0, 215);
+<<<<<<< HEAD
     display: flex;
     gap: 30px;
+
+   
+>>>>>>> 1925b52845b9134b3aae3de24b7b65ef6373cbaf
   }
+
+.section-3 {
+  display: flex;
+  gap: 50px;
+}
+
   .sec-3 img{
     margin-top: 150px;
+    margin-bottom: 100px;
     width: 40%;
     margin-left: 40px;
     border: 20px solid #ffffff;
-    border-radius: 90px;
+    border-radius: 300px;
   }
   .txts{
     margin-top: 350px;
@@ -186,11 +201,20 @@
   text-align: left;
   position: relative;
   color: #ffffff;
+ 
 }
+
   .sec-4 img{
     width: 100%;
+    height: 400px;
+    object-fit: cover;
    
   }
+  .sec-4-txt {
+position: absolute;
+margin-top: 100px;
+  }
+
   .sec-4-txt p{
     color: #989393;
   }
@@ -257,17 +281,9 @@
     line-height: 25px 
   }
 
-  /* .service-buttom{
-    display: flex;
-    margin-top: 130px;
-    padding: 50px;
-   border: 1px solid black;
-   justify-content: space-evenly;
-  } */
+ 
 
   .b1{
-    margin-left: 40px;
-    margin-top: 130px;
     border: 1px solid black;
     width: 300px;
     height: 300px;
@@ -275,25 +291,11 @@
     border-radius: 15px;
   } 
 
-  .b2{
-    margin-left: 445px;
-    margin-top: -380px;
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    padding: 40px;
-    border-radius: 15px;
-  }
+.service-boxes {
+  display: flex;
+gap: 48px;
+margin-bottom: 48px;
 
-  .b3{
-    margin-left: 850px;
-    margin-top: -380px;
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    padding: 40px;
-    border-radius: 15px;
-  }
-
+}
 
   
