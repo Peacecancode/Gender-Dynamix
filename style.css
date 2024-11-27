@@ -15,7 +15,6 @@
   .container {
     max-width: 1200px;
     margin: auto;
- 
   }
   
   .navbar {
@@ -23,7 +22,6 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-  
   }
   
   header a {
@@ -120,25 +118,26 @@
     width: 63%;
     margin-top: 50px;
     margin-right: 20px;
+    margin-bottom: 80px;
   }
   .text{
     margin-top: 150px;
     font-size: 25px;
-    margin-left: 40px;
+    margin-left: 15px;
   }
   .text h1{
    font-size: 60px;
   }
   .text p{
-    font-size: 18px;
+    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #000;
   }
 
   /*----------section 3----------*/
 
   .sec-3{
     background-color: rgb(129, 0, 215);
-<<<<<<< HEAD
     display: flex;
     gap: 30px;
 
@@ -173,6 +172,7 @@
   }
   .Txt p{
     font-weight: 5;
+    color: #ffffff;
   }
   .txt-1 h1{
     font-size: 60px;
@@ -181,6 +181,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 5;
+    color: #ffffff;
   }
   .txt-2{
     margin-top: 80px;
@@ -206,27 +207,162 @@
 
   .sec-4 img{
     width: 100%;
-    height: 400px;
+    height: 460px;
     object-fit: cover;
    
   }
   .sec-4-txt {
-position: absolute;
-margin-top: 100px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 33px;
   }
 
   .sec-4-txt p{
-    color: #989393;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 360;
+    
   }
   .yellow-txt h2{
-    color: orangered;
+    color: rgb(237, 131, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 41px;
   }
   .yellow-txt p{
-    color: orangered;
+    color: rgb(237, 131, 0);
+    font-size: 17px;
+    font-weight: 450;
   }
-  .sec-4-txt{
-   
+  
+
+  /*------------section 5---------*/
+
+  .sec-5{
+    display: flex;
+    gap: 70px;
+    margin-top: 160px;
+    margin-bottom: 8px;
+    margin-left: 70px;
   }
+  .sec-5 h1{
+    font-size: 100px;
+  }
+  .sec-5 p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  .sec-5-btn{
+    background-color: rgb(255, 140, 0);
+    border-radius: 50px;
+    width: 139px;
+    color: #ffffff;
+    height: 44px;
+    font-size: 15px;
+    border: none;
+    margin-left: 490px;
+    margin-bottom: 120px;
+  }
+  .sec-5-btn:hover{
+      background-color: rgb(239, 132, 1);
+      cursor: pointer;
+    }
+
+    /*--------------section 6--------*/
+
+  
+  .sec-6{
+    display: flex;
+  }
+  .sec-6 img{
+    width: 420px;
+   height: 370px;
+   object-fit: cover; 
+  }
+  .sec-6-txts{
+    display: flex;
+    gap: 30px;
+    margin-top: -370px;
+  }
+  .sec-6-txt{
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    margin-top: 250px;
+    font-weight: 495;
+  }
+  .sec-6-txt2{
+    color: rgb(255, 140, 0);
+    position: relative;
+    font-weight: 490;
+    font-size: 17px;
+  }
+  .sec-6-txts{
+    display: flex;
+  }
+
+  /*-------------section 7-----------*/
+
+  .sec-7{
+    text-align: center;
+    align-items: center;
+  }
+  .sec-7-txt1{
+    text-align: center;
+    margin-top: 120px;
+  }
+  .sec-7-txt1 h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .sec-7-txt1 p{
+    color: #000;
+    font-weight: 380;
+    font-size: 18px;
+  }
+  .sec-7-txt2{
+    background-color: rgb(157, 0, 255);
+    border-radius: 30px;
+    height: 250px;
+    width: 800px;
+    margin-left: 200px;
+  }
+  .txt2-p2{
+    margin-right: 340px;
+    margin-bottom: 50px;
+  }
+  .sec-7-txt2 p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 450;
+    margin-top: 30px;
+  }
+  .sec-7-txt2 h2{
+    color: #fff;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+    margin-top: 50px;
+    margin-right: 340px;
+  }
+  .sec-7-txt3 img{
+    width: 800px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 300px;
+    position: absolute;
+  }
+  .sec-7-txt3 h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    position: relative;
+  }
+
+
+
+  
 
 
 =======
