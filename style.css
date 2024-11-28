@@ -223,11 +223,6 @@ margin-top: 100px;
    
   }
 
-
-=======
-    height: 480px;
-  }
-
   .contain{
    max-width: 1200px;
    margin: auto;
@@ -320,22 +315,16 @@ margin-top: 100px;
 }
 
 .futa-box{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 20px;
   height: 300px;
-}
-
-.futa-text{
-  margin-left: 900px;
-  text-decoration: none;
-  gap: ;
 }
 
 .futa-header{
   margin-top: -40px;
   font-family: sans-serif;
-  font-weight: 560;
-  margin-left: ;
+  font-weight: 540;
+  font-size: large;
   
 }
 
@@ -344,5 +333,34 @@ margin-top: 100px;
   font-family: sans-serif;
   font-size: 14px;
   line-height: 30px;
+}
+
+.first-roll{
+  margin-left: 930px;
+  line-height: 35px;
+  text-decoration: none;
+  text-decoration-line: none;
+  font-size: large;
+}
+
+.second-roll{
+  margin-left: 1100px;
+  line-height: 35px;
+  text-decoration: none;
+  text-decoration-line: none;
+  margin-top: -210px;
+  font-size: large;
+}
+
+.futa-links a{
+  text-decoration: none;
+}
+
+.futa-links li{
+  list-style: none;
+}
+
+.copywrite{
+  padding-top: 20px;
 }
   
