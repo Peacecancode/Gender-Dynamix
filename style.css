@@ -9,8 +9,11 @@
 
   .hero-section {
     position: relative;
+    color: #fff;
   }
-  
+  #branding img{
+    width: 200px;
+  }
   
   .container {
     max-width: 1200px;
@@ -25,13 +28,14 @@
   }
   
   header a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
   }
 
   header a:hover{
     text-decoration-line: underline;
-    color: blue;
+    color: #fff;
+    font-weight: bold;
   }
 
   header li {
@@ -59,13 +63,11 @@
   
   .hero-image {
     position: absolute;
-    top: 60px;
+    /* top: 60px; */
     z-index: -10;
     width: 100%;
-    height: 800px;
+    height: 700px;
     object-fit: cover;
- 
-    
   }
   .header{
     font-size: 70px;
@@ -96,7 +98,7 @@
   .icons{
     display: flex;
     color: #000;
-    margin-top: 360px;
+    margin-top: 140px;
     margin-left: 100px;
     gap: 1px;
   }
@@ -304,7 +306,7 @@
   /*-------------section 7-----------*/
 
   .sec-7{
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
   }
   .sec-7-txt1{
@@ -325,7 +327,12 @@
     border-radius: 30px;
     height: 250px;
     width: 800px;
-    margin-left: 200px;
+   padding-left: 50px;
+   padding-top: 30px;
+  }
+  .Testimonials{
+    display: flex;
+    justify-content: center;
   }
   .txt2-p2{
     margin-right: 340px;
@@ -335,29 +342,49 @@
     color: #fff;
     font-size: 16px;
     font-weight: 450;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .sec-7-txt2 h2{
     color: #fff;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 80;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-right: 340px;
+  }
+  .sec-7-txt3{
+    position: relative;
+  }
+  .work-together{
+    position: absolute;
+    top: 100px;
+    padding-left: 80px;
   }
   .sec-7-txt3 img{
     width: 800px;
     border-radius: 20px;
-    margin-left: 10px;
     margin-top: 50px;
     height: 300px;
-    position: absolute;
   }
   .sec-7-txt3 h1{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-    position: relative;
+    /* margin-bottom: 100px; */
+  }
+  .sec-7-btn{
+    background-color: rgb(255, 140, 0);
+    border-radius: 50px;
+    width: 139px;
+    color: #ffffff;
+    height: 44px;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;
+  }
+  .sec-7-btn:hover{
+    background-color: rgb(239, 132, 1);
+    cursor: pointer;
+   
   }
 
 
