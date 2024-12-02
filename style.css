@@ -16,19 +16,14 @@
 .hero-section {
   position: relative;
   color: #fff;
+
+
 }
 
-.hero-image {
-  object-fit: cover;
-
-  width: 100%;
-  height: 700px;
-}
 
 .hero-content {
   top: 0;
   position: absolute;
-  z-index: 2;
   width: 100%;
 }
 
@@ -47,7 +42,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 header a {
@@ -71,7 +66,7 @@ header li {
   text-decoration: none;
   gap: 55px;
 
-  margin-top: 25px;
+ 
   position: relative;
 }
 .nav-container a {
@@ -99,7 +94,7 @@ header li {
 .header {
   font-size: 70px;
   color: #ffffff;
-  margin-top: 200px;
+  margin-top: 180px;
   font-weight: 500px;
   position: relative;
 }
@@ -293,31 +288,49 @@ header li {
 
 .sec-6 {
   display: flex;
+
+  width: 100%;
+  justify-content: space-between;
 }
 .sec-6 img {
-  width: 420px;
+width: 100%;
+  object-fit: fill;
 
-  height: 370px;
-  object-fit: cover;
-  position: absolute;
+
 }
 
 .sec-6-txt {
-  height: 370px;
+
   object-fit: cover;
 }
 .sec-6-txts {
   display: flex;
   gap: 30px;
-  margin-top: -370px;
+ 
+}
+
+.img-p1 {
+  position: relative;
+  width: 100%;
+}
+
+
+
+
+.sec-6-content {
+  position: absolute;
+  bottom: 10px;
+  padding: 8px;
 }
 .sec-6-txt {
   color: #fff;
   font-size: 17px;
-  position: relative;
-  margin-top: 250px;
+
+ 
   font-weight: 495;
-  margin-left: 30px;
+
+
+
 }
 .sec-6-txt2 {
   color: rgb(255, 140, 0);
@@ -325,7 +338,6 @@ header li {
   font-weight: 490;
   font-size: 17px;
 
-  margin-left: 30px;
 }
 
 /*-------------section 7-----------*/
@@ -414,6 +426,7 @@ header li {
 /*----------------About us-----------*/
 
 .about-txt {
+  color: #fff;
   position: relative;
   margin-top: 150px;
   margin-left: 50px;
@@ -445,16 +458,17 @@ header li {
 .first-div {
   border: 1px solid rgb(206, 206, 206);
   border-radius: 15px;
+  padding: 48px;
 }
 .second-div {
   border: 1px solid rgb(206, 206, 206);
   border-radius: 15px;
+  padding: 48px;
+
 }
 .part-3 p {
   color: #000;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+ 
   font-size: 17px;
 }
 .part-3 h3 {
@@ -462,11 +476,15 @@ header li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 20;
-  margin-left: 50px;
-  margin-right: 50px;
   margin-bottom: 10px;
-  margin-top: 200px;
+
 }
+
+.part-3 img {
+  margin-bottom: 20px;
+}
+
+
 .blue-div {
   background-color: rgb(119, 0, 224);
   width: 550px;
