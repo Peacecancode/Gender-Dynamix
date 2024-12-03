@@ -742,7 +742,7 @@ div p {
 .contact-info {
   margin-top: 340px;
   display: flex;
-  margin-left: 35px;
+
   width: 100%;
   justify-content: space-between;
 }
@@ -753,7 +753,7 @@ div p {
   border-radius: 20px;
   height: 360px;
   width: 420px;
-  margin-right: 60px;
+ 
 }
 
 .info-side p {
