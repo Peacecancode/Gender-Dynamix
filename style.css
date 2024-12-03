@@ -16,10 +16,7 @@
 .hero-section {
   position: relative;
   color: #fff;
-
-
 }
-
 
 .hero-content {
   top: 0;
@@ -66,7 +63,6 @@ header li {
   text-decoration: none;
   gap: 55px;
 
- 
   position: relative;
 }
 .nav-container a {
@@ -91,13 +87,7 @@ header li {
 
   object-fit: cover;
 }
-.header {
-  font-size: 70px;
-  color: #ffffff;
-  margin-top: 180px;
-  font-weight: 500px;
-  position: relative;
-}
+
 .button {
   background-color: rgb(255, 140, 0);
   border-radius: 50px;
@@ -293,29 +283,22 @@ header li {
   justify-content: space-between;
 }
 .sec-6 img {
-width: 100%;
+  width: 100%;
   object-fit: fill;
-
-
 }
 
 .sec-6-txt {
-
   object-fit: cover;
 }
 .sec-6-txts {
   display: flex;
   gap: 30px;
- 
 }
 
 .img-p1 {
   position: relative;
   width: 100%;
 }
-
-
-
 
 .sec-6-content {
   position: absolute;
@@ -326,18 +309,13 @@ width: 100%;
   color: #fff;
   font-size: 17px;
 
- 
   font-weight: 495;
-
-
-
 }
 .sec-6-txt2 {
   color: rgb(255, 140, 0);
   position: relative;
   font-weight: 490;
   font-size: 17px;
-
 }
 
 /*-------------section 7-----------*/
@@ -425,13 +403,6 @@ width: 100%;
 
 /*----------------About us-----------*/
 
-.about-txt {
-  color: #fff;
-  position: relative;
-  margin-top: 150px;
-  margin-left: 50px;
-  font-size: 25px;
-}
 .part-2 img {
   width: 550px;
   margin-left: 30px;
@@ -464,11 +435,10 @@ width: 100%;
   border: 1px solid rgb(206, 206, 206);
   border-radius: 15px;
   padding: 48px;
-
 }
 .part-3 p {
   color: #000;
- 
+
   font-size: 17px;
 }
 .part-3 h3 {
@@ -477,13 +447,11 @@ width: 100%;
   font-size: 30px;
   font-weight: 20;
   margin-bottom: 10px;
-
 }
 
 .part-3 img {
   margin-bottom: 20px;
 }
-
 
 .blue-div {
   background-color: rgb(119, 0, 224);
@@ -573,14 +541,6 @@ width: 100%;
   margin: auto;
 }
 
-.services-heading {
-  color: #fff;
-  margin-top: 160px;
-  margin-left: 60px;
-  font-size: 23px;
-  font-weight: bolder;
-}
-
 div p {
   color: rgb(255, 132, 0);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -596,24 +556,25 @@ div p {
   background-position: center;
   height: 320px;
   width: 94%;
-  margin-top: 185px;
-  margin-left: 40px;
+  margin-top: 100px;
 }
 
 .services-content {
-  margin-left: 120px;
-  margin-top: -180px;
+  /* margin-left: 120px;
+  margin-top: -180px; */
   /* display: flex; */
   color: #fff;
   font-size: x-large;
+  display: flex;
+  gap: 32px;
+  padding-top: 100px;
+  padding-left: 60px;
 }
 
 .sp {
   font-size: 17px;
-  margin-left: 170px;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: -80px;
   line-height: 25px;
 }
 
@@ -778,7 +739,7 @@ div p {
   /* margin-top: 60px; */
 }
 
-.contact-info{
+.contact-info {
   margin-top: 340px;
   display: flex;
   margin-left: 35px;
@@ -786,24 +747,23 @@ div p {
   justify-content: space-between;
 }
 
-.info-side{
+.info-side {
   border: 1px solid rgb(221, 221, 221);
   padding: 80px;
   border-radius: 20px;
   height: 360px;
   width: 420px;
-  margin-right: 60px
+  margin-right: 60px;
 }
 
-.info-side p{
+.info-side p {
   color: #000;
   font-family: sans-serif;
   font-size: medium;
   line-height: 25px;
-  
 }
 
-.info-side h3{
+.info-side h3 {
   margin-top: 40px;
   font-family: sans-serif;
   line-height: 38px;
@@ -811,7 +771,7 @@ div p {
   font-size: 21px;
 }
 
-.connect-button{
+.connect-button {
   height: 40px;
   /* padding: 10px; */
   border-radius: 40px;
@@ -820,18 +780,18 @@ div p {
   border: none;
 }
 
-.connect-button p{
+.connect-button p {
   font-family: sans-serif;
   color: rgb(136, 0, 255);
   font-size: larger;
 }
 
-.contact-form h1{
+.contact-form h1 {
   font-size: 35px;
   margin-top: 20px;
 }
 
-.name-input{
+.name-input {
   margin-top: 20px;
   display: flex;
   gap: 20px;
@@ -839,7 +799,7 @@ div p {
   justify-content: space-between;
 }
 
-.input{
+.input {
   height: 20px;
   border-radius: 5px;
   width: 200px;
@@ -848,26 +808,23 @@ div p {
   background-color: rgb(255, 243, 255);
   border: none;
   margin-top: 6px;
-  
 }
 
-.email-input{
+.email-input {
   margin-top: 28px;
 }
 
-.message-input{
+.message-input {
   margin-top: 28px;
 }
 
-.contact-form input::selection{
+.contact-form input::selection {
   border: #000;
-  
 }
 
-.last{
+.last {
   /* margin-left: 300px;
   margin-top: -80px; */
-  
 }
 
 /* .email-message{
@@ -875,7 +832,7 @@ div p {
   gap: 100px;
 } */
 
-.text-input{
+.text-input {
   height: 20px;
   width: 500px;
   border-radius: 5px;
@@ -886,14 +843,14 @@ div p {
   border: none;
 }
 
-.contact-form h4{
+.contact-form h4 {
   font-family: sans-serif;
   font-weight: 100;
   margin-top: 15px;
   font-size: 13px;
 }
 
-.submit-button{
+.submit-button {
   height: 45px;
   width: 160px;
   border-radius: 5px;
@@ -901,4 +858,23 @@ div p {
   background-color: rgb(132, 0, 255);
   color: #fff;
   border: none;
+}
+
+/*----------------new css updates-----------*/
+
+.header-text {
+  color: #fff;
+  margin-top: 160px;
+}
+
+.hero-header-text {
+  font-size: 70px;
+  color: #ffffff;
+  margin-top: 180px;
+  font-weight: 500px;
+  position: relative;
+}
+
+.header-text h1 {
+  font-size: 48px;
 }
