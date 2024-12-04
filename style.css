@@ -36,6 +36,7 @@
 .container {
   max-width: 1200px;
   margin: auto;
+  padding: 0px 16px;
 }
 
 .navbar {
@@ -65,8 +66,6 @@ header li {
   display: flex;
   text-decoration: none;
   gap: 55px;
-
- 
   position: relative;
 }
 .nav-container a {
@@ -122,7 +121,7 @@ header li {
   display: flex;
   color: #000;
   margin-top: 70px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   gap: 1px;
 }
 
@@ -144,7 +143,7 @@ header li {
   margin-bottom: 80px;
 }
 .text {
-  margin-top: 150px;
+  margin-top: 50px;
   font-size: 25px;
   margin-left: 15px;
 }
@@ -258,7 +257,7 @@ header li {
   gap: 70px;
   margin-top: 160px;
   margin-bottom: 8px;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 .sec-5 h1 {
   font-size: 100px;
@@ -343,7 +342,6 @@ width: 100%;
 /*-------------section 7-----------*/
 
 .sec-7 {
-  /* text-align: center; */
   align-items: center;
 }
 .sec-7-txt1 {
@@ -371,15 +369,12 @@ width: 100%;
   display: flex;
   justify-content: center;
 }
-.txt2-p2 {
-  margin-right: 340px;
-  margin-bottom: 50px;
-}
+
 .sec-7-txt2 p {
   color: #fff;
   font-size: 16px;
   font-weight: 450;
-  margin-top: 10px;
+  margin-top: 6px;
 }
 .sec-7-txt2 h2 {
   color: #fff;
@@ -387,7 +382,6 @@ width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 80;
   margin-top: 40px;
-  margin-right: 340px;
 }
 .sec-7-txt3 {
   position: relative;
@@ -661,7 +655,12 @@ div p {
 .futa-box {
   /* border: 1px solid black; */
   margin-top: 100px;
-  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links{
+  display: flex;
+  gap: 50px;
 }
 
 .futa-logo {
@@ -692,7 +691,6 @@ div p {
 }
 
 .first-roll {
-  margin-left: 930px;
   line-height: 35px;
   text-decoration: none;
   text-decoration-line: none;
@@ -700,11 +698,9 @@ div p {
 }
 
 .second-roll {
-  margin-left: 1100px;
   line-height: 35px;
   text-decoration: none;
   text-decoration-line: none;
-  margin-top: -210px;
   font-size: large;
 }
 
@@ -717,7 +713,7 @@ div p {
 }
 
 .copywrite {
-  padding-top: 20px;
+  padding: 24px 0;
 }
 
 .project-image {
@@ -766,4 +762,181 @@ div p {
   gap: 40px;
   margin-top: 40px;
   margin-left: 15px;
+}
+
+@media(max-width: 700px){
+  .navbar {
+    display: block;
+  }
+  .nav-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    text-decoration: none;
+    gap: 10px;
+  }
+  .hero-image{
+    height: 500px;
+  }
+  .header {
+    font-size: 28px;
+  }
+  .button{
+    width: 100px;
+  }
+  #branding img{
+    width: 160px;
+  }
+  .icons{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+  }
+  .icons img{
+    width: 70px;
+    height: 30px;
+  }
+  .text h1{
+    font-size: 40px;
+  }
+  .text p{
+    font-size: 15px;
+  }
+  .section2 {
+    display: block;
+  }
+
+  .section2 img{
+    width: 100%;
+    /* height: 100px; */
+  }
+  .sec-3{
+    height: 1000px;
+  }
+  .txts{
+    margin-top: -70px;
+    margin-left: 5px;
+  }
+  .txt-1{
+    margin-bottom: -30px;
+  }
+  .txts h1{
+    font-size: 30px;
+  }
+  .txts p{
+    font-size: 10px;
+  }
+  .section-3 {
+    display: block;
+  }
+  .section-3 h3{
+    font-size: 19px;
+  }
+  .section-3 img{
+  width: 85%;
+  margin-top: -20px;
+  margin-left: 4px;
+  }
+  .sec-4 img{
+    object-fit: cover;
+    height: 300px;
+  }
+  .sec-4-txt{
+    margin-left: -0.9px;
+  }
+  .sec-4-txt p{
+    font-size: 19px;
+}
+.yellow-txt p{
+  font-size: 14px;
+}
+.sec-4-txt h2{
+  font-size: 24px;
+}
+.sec-5{
+  display: block;
+}
+.sec-5 h1{
+  font-size: 50px;
+  margin-top: -80px;
+}
+.sec-5 p{
+  font-size: 14px;
+}
+.sec-5-btn{
+  margin-left: -1px;
+}
+.sec-6{
+  display: block;
+}
+
+.sec-6-txt{
+  font-size: 10px;
+  bottom: 10px;
+}
+
+.sec-7 {
+  align-items: center;
+}
+.sec-7-txt1 {
+  text-align: center;
+  /* margin-top: 120px; */
+}
+.sec-7-txt1 h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.sec-7-txt1 p {
+  color: #000;
+  font-weight: 380;
+  font-size: 18px;
+}
+.sec-7-txt2 {
+  background-color: rgb(157, 0, 255);
+  border-radius: 30px;
+  height: 350px;
+  width: 100%;
+  padding: 32px 16px;
+}
+.sec-7-txt3 {
+  position: relative;
+}
+.work-together {
+  position: absolute;
+  top: 100px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.testimonial-content h1{
+  text-align: center;
+}
+.sec-7-txt3 img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 50px;
+  height: 400px;
+  object-fit: cover;
+
+}
+.sec-7-txt3 h1 {
+  font-size: 20px;
+}
+.futa-box {
+  /* border: 1px solid black; */
+  margin-top: 100px;
+  display: block;
+}
+.first-roll {
+ margin-top: 48px;
+}
+.second-roll {
+ margin-top: 48px;
+}
+.footer-links{
+  display: block;
+}
+
 }
