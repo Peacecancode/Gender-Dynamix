@@ -601,19 +601,20 @@ div p {
 }
 
 .services-content {
-  margin-left: 120px;
-  margin-top: -180px;
-  /* display: flex; */
   color: #fff;
   font-size: x-large;
+  display: flex;
+  gap: 32px;
+  padding-top: 130px;
+  padding-left: 60px;
 }
 
 .sp {
   font-size: 17px;
-  margin-left: 170px;
+  /* margin-left: 170px; */
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: -80px;
+  margin-top: -35px;
   line-height: 25px;
 }
 
@@ -651,7 +652,7 @@ div p {
 }
 
 .all-boxes {
-  margin-top: 128px;
+  margin-top: 50px;
 }
 
 .b1 {
@@ -901,4 +902,148 @@ div p {
   background-color: rgb(132, 0, 255);
   color: #fff;
   border: none;
+}
+
+.service-img {
+  border-radius: 18px;
+  background-image: url(images/servicedescimg.png);
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  width: 94%;
+  margin-top: 200px;
+}
+
+@media(max-width: 700px){
+  .services-image{
+    object-fit: cover;
+  }
+
+  .services-heading{
+    margin-left: 15px;
+  }
+  .services-heading P{
+    /* width: 100PX; */
+    font-size: small;
+
+  }
+
+  .services-heading h1{
+    font-size: larger;
+  }
+
+  .box-logo{
+    height: 65px;
+    
+  }
+
+  .services-image{
+    object-fit: ;
+  }
+
+  .nav-container{
+    background-image: url(<a href="https://www.flaticon.com/free-icons/hamburger" title="hamburger icons">Hamburger icons created by Lizel Arina - Flaticon</a>);
+  }
+
+  .service-img{
+    margin-top: 220px;
+    height: 150px;
+    margin-left: 4px;
+    border-radius: 20px;
+    width: 380px;
+  }
+
+  .sp{
+    font-size: 10px;
+    /* margin-left: 100px; */
+    /* display: flex; */
+    line-height: 15PX;
+    margin-top: 15px;
+
+  }
+
+  .box-heading{
+    font-size: larger;
+  }
+
+  .box-paragraph{
+    font-size: medium;
+  }
+
+  .box-logo{
+    height: 50px;
+  }
+
+  .b1{
+    width: 250px;
+    margin-left: 30px;
+    height: 250px;
+    margin-top: 15px;
+  }
+
+  .service-boxes{
+    display: block;
+    margin-top: 15px;
+  }
+
+  .all-boxes{
+    margin-top: 20px;
+  }
+
+  .service-img {
+    border-radius: 18px;
+    background-image: url(images/servicedescimg.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 94%;
+    margin-top: 240px;
+    margin-left: 12px;
+  }
+  
+  .services-content {
+    color: #fff;
+    font-size: larger;
+    display: block;
+    gap: 32px;
+    padding-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .empowering-change-section{
+    margin-left: 15px;
+    display: block;
+    margin-top: 330px;
+
+  }
+
+  .empowering-change{
+    font-size: x-large;
+  }
+
+  .empowering-change-paragraph{
+    margin-top: 10px;
+    font-size: small;
+  }
+
+  .project-image-set1{
+    display: block;
+    margin-left: 41px;
+    margin-top: 20px;
+    
+  }
+
+  .p1{
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  .project-image-set2{
+    display: block;
+    margin-left: 41px;
+    margin-top: 790px;
+  }
+
+
 }
